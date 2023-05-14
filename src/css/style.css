@@ -1,0 +1,370 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+*::-webkit-scrollbar {
+    width: 12px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #f1e9e9;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #582965;
+    border-radius: 10px;
+    border: 3px solid #ffffff;
+}
+
+* {margin: 0; padding: 0;}
+
+.modo-escuro {
+
+    background: transparent;
+
+}
+
+body {
+    background-color: #1d3344;    overflow-x: hidden;
+}
+
+header {
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.8099614845938375) 50%, rgba(0,0,0,1) 100%);
+    width: 100%;
+    height: 8vh;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+header .logo,
+header .imagem-botao {
+
+    width: 50px;
+    height: 50px;
+    padding: 20px;
+    transition: 0.5s ease-in-out;
+
+}
+
+.logo:hover, .imagem-botao:hover {
+
+    
+    transform: scale(1.2) rotate(360deg);
+    cursor: pointer;
+
+}
+
+ul {
+
+    list-style: none;
+
+}
+
+main{
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.8099614845938375) 50%, rgba(0,0,0,1) 100%);
+}
+
+main .listagem-pokemon {
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 45px;
+    justify-content: center;
+}
+
+
+.cartao-pokemon {
+
+    background-color: #263838;
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 200px;
+    border-radius: 20px;    
+    padding: 20px;
+    border: 1px solid;
+    transition: 0.5s ease-in-out;
+    
+}
+
+.cartao-pokemon-grama {
+
+    background-color: #263838;
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 200px;
+    border-radius: 20px;    
+    padding: 20px;
+    border: 1px solid;
+    transition: 0.5s ease-in-out;
+    
+}
+
+.cartao-pokemon-fogo {
+
+    background-color: #263838;
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 200px;
+    border-radius: 20px;    
+    padding: 20px;
+    border: 1px solid;
+    transition: 0.5s ease-in-out;
+    
+}
+
+.cartao-pokemon-agua {
+
+    background-color: #263838;
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 200px;
+    border-radius: 20px;    
+    padding: 20px;
+    border: 1px solid;
+    transition: 0.5s ease-in-out;
+    
+}
+
+.cartao-pokemon-inseto {
+
+    background-color: #263838;
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 200px;
+    border-radius: 20px;    
+    padding: 20px;
+    border: 1px solid;
+    transition: 0.5s ease-in-out;
+    
+}
+
+.cartao-pokemon-voador {
+
+    background-color: #263838;
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 200px;
+    border-radius: 20px;    
+    padding: 20px;
+    border: 1px solid;
+    transition: 0.5s ease-in-out;
+    
+}
+
+.cartao-pokemon-veneno {
+
+    background-color: #263838;
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 200px;
+    border-radius: 20px;    
+    padding: 20px;
+    border: 1px solid;
+    transition: 0.5s ease-in-out;
+    
+}
+
+.cartao-pokemon:hover {
+
+    
+    transform: scale(1.2);
+    background-color: rgb(167, 164, 164);
+    border: black 3px solid;
+    color: white;
+
+}
+
+.cartao-pokemon-grama:hover {
+
+    
+    transform: scale(1.2);
+    background-color: green;
+    border: black 3px solid;
+    color: white;
+
+}
+
+.cartao-pokemon-fogo:hover {
+
+    
+    transform: scale(1.2);
+    background-color: rgb(255, 40, 40);
+    border: black 3px solid;
+    color: white;
+
+}
+
+.cartao-pokemon-agua:hover {
+
+    
+    transform: scale(1.2);
+    background-color: rgb(40, 69, 233);
+    border: black 3px solid;
+    color: white;
+
+}
+
+.cartao-pokemon-voador:hover {
+
+    
+    transform: scale(1.2);
+    background-color: rgb(177, 187, 255);
+    border: black 3px solid;
+    color: white;
+
+}
+
+.cartao-pokemon-inseto:hover {
+
+    
+    transform: scale(1.2);
+    background-color: rgb(162, 233, 40);
+    border: black 3px solid;
+    color: white;
+
+}
+
+.cartao-pokemon-veneno:hover {
+
+    
+    transform: scale(1.2);
+    background-color: purple;
+    border: black 3px solid;
+    color: white;
+
+}
+
+.tipos {
+
+    display: flex;
+    padding: 20px;
+    
+}
+
+.tipos li {
+
+    margin: 20px;
+
+}
+
+.tipos .tipo-veneno {
+    color: white;
+    font-size: 15px;
+    background-color: #a59;
+    border-radius: 5px;
+    padding: 5px;
+
+}
+
+.tipos .tipo-grama {
+    color: white;
+    font-size: 15px;
+    background-color: #7c5;
+    border-radius: 5px;
+    padding: 5px;
+
+}
+
+.tipos .tipo-fogo {
+    color: white;
+    font-size: 15px;
+    background-color: #FF4422;
+    border-radius: 5px;
+    padding: 5px;
+
+}
+
+.tipos .tipo-agua {
+    color: white;
+    font-size: 15px;
+    background-color: rgb(16, 124, 191);
+    border-radius: 5px;
+    padding: 5px;
+
+}
+
+.tipos .tipo-inseto {
+    color: white;
+    font-size: 15px;
+    background-color: #ab2;
+    border-radius: 5px;
+    padding: 5px;
+
+}
+
+.tipos .tipo-voador {
+    color: white;
+    font-size: 15px;
+    background-color: #8899FF;
+    border-radius: 5px;
+    padding: 5px;
+
+}
+
+.tipos .tipo-normal {
+    color: white;
+    font-size: 15px;
+    background-color: #AAAA99;
+    border-radius: 5px;
+    padding: 5px;
+
+}
+
+.informacoes {
+
+    font-size: 15px;
+    color: rgb(6, 220, 253);
+    border: 2px solid rgb(6, 220, 253);
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.gif {
+    margin: 15px;
+    padding: 20px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 100px;
+
+}
+
+.descricao {
+
+    font-size: 15px;
+
+}
+
+video { 
+    position: fixed; 
+	right: 0; 
+	bottom: 0;
+	min-width: 100%; 
+	min-height: 100%;
+	width: auto; 
+	height: auto; 
+	z-index: -1000;
+}
